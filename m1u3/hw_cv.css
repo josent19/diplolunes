@@ -1,0 +1,46 @@
+h1{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2{
+    color: azure;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.objetivo{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
+.destacados{
+    font-style: italic;
+    font-weight: bold;
+
+}
+
+li{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+
+}
+
+h3{
+    color: blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    text-align: justify;
+
+}
+
+.imagen{
+    text-align: right;
+}
