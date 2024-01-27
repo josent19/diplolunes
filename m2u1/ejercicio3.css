@@ -1,0 +1,51 @@
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+   
+    
+    
+    
+}
+
+p{
+    color: azure;
+    display: flex;
+    align-items: center;
+       
+}
+
+
+
+.bloque1{
+    background-color: red;
+    width: 350px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    margin-right: 250px;
+    
+
+}
+
+
+
+.bloque2{
+    background-color: blue;
+    width: 350px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    margin-right: 250px;
+    
+}
+
+.bloque3{
+    background-color: green;
+    width: 350px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+   
+}
