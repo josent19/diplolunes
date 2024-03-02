@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medio de transporte</title>
+</head>
+
+<body>
+    <script>
+
+        let distancia = prompt('Ingrese la distancia: ', '');
+
+        if(parseInt(distancia) <= 999){
+           document.write("La distancia es " + distancia + " Metros " +  " es corta camina, es saludable");
+
+        }else if(parseInt(distancia) > 1000 && parseInt(distancia) < 9999 ){
+            document.write("La distancia es " + distancia + " Metros " +  " usa la bici, es mas rapido");
+
+        }else if(parseInt(distancia) > 10000 && parseInt(distancia) < 29999){
+            document.write("La distancia es " + distancia + " Metros " +  " viaja en colectivo, es mas rapido");
+
+        }else if(parseInt(distancia) > 30000 && parseInt(distancia) < 99999){
+            document.write("La distancia es " + distancia + " Metros " +  " viaja en auto, y disfruta de la ruta");
+
+        }else if(parseInt(distancia) >= 100000){
+            document.write("La distancia es " + distancia + " Metros " +  " viaja en avion, es mas rapido");
+
+        }
+
+
+    </script>
+
+
+
+
+</body>
+
+</html>
